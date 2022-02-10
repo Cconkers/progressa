@@ -1,0 +1,94 @@
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+.container {
+  text-align: left;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  margin: 0;
+  height: 34rem;
+  width: 100%;
+}
+.seccion1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-image: url("https://content.skyscnr.com/m/785bdfcbe683606c/Large-Flights-hero-2.jpg?crop=1800px:1375px&quality=60");
+}
+.heroContent {
+  width: 100%;
+  min-height: 378px;
+  max-width: 1096px;
+  min-height: 378px;
+  margin: 0 auto 2%;
+  padding: 1.5rem 0;
+}
+.card {
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #02122c;
+  border-radius: 0.25rem;
+}
+.tituloHeroe {
+  font-weight: 400;
+  padding: 0 0 1.875rem 1.5rem;
+  color: #fff;
+  font-size: 3.75rem !important;
+  line-height: 1.3 !important;
+}
+.controlBuscadorVuelos {
+}
+.inputsBuscador {
+  align-items: center;
+  display: inline-block;
+}
+.destinos {
+  display: flex;
+  flex-direction: column;
+}
+.inputsClass {
+  border: 0.0625rem solid #b2b2bf;
+  border-right-width: 0;
+  border-radius: 0;
+  height: 2rem;
+  margin: 0;
+  padding-left: 1rem;
+}
+.border-end1 {
+  border-radius: 5px 0px 0 5px;
+}
+.border-end2 {
+  border-radius: 0px 5px 5px 0;
+}
+label {
+  font-size: 11px;
+  color: white;
+}
+.inputsBuscador {
+  display: flex;
+}
+.switch {
+  height: 2.09rem;
+  position: relative;
+  top: 6.5px;
+}
+.switch button {
+  background-color: white;
+  border: none;
+  height: 100%;
+}
+.switch svg {
+  fill: #0770e3;
+}

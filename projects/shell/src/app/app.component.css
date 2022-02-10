@@ -1,0 +1,112 @@
+.container {
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cabecera {
+  width: 60%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.logoCriterios {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.miniPanel {
+  display: flex;
+  color: #444560;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-size: 0.775rem;
+  padding: 0.5rem;
+  border: 2px solid rgba(128, 128, 128, 0.438);
+  border-radius: 4px;
+}
+.miniPanel:hover {
+  cursor: pointer;
+  border: 2px solid #0770e3;
+}
+.miniPanel span {
+  color: rgba(128, 128, 128, 0.623);
+}
+.avatar{
+  margin-left: 1rem;
+  display: block;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+}
+.criterios {
+  display: flex;
+  align-items: center;
+}
+.criterios a {
+  margin-right: 1rem;
+  color: #0770e3;
+  font-weight: 400;
+}
+.criterios a:hover {
+  text-decoration: underline;
+}
+.bandera {
+  width: 1rem;
+  height: 0.75rem;
+  margin-right: 0.25rem;
+  margin-left: 0.5rem;
+  border: 1px solid #dddde5;
+  box-sizing: content-box;
+}
+.botones {
+  display: flex;
+  width: 100%;
+  margin-top: 1.5rem;
+  justify-content: flex-start;
+}
+.boton {
+  display: flex;
+  background-color: #0770e3;
+  padding: 0.3125rem 0.75rem;
+  margin-right: 0.4rem;
+  font-weight: 500;
+  height: 1.5rem;
+  align-items: center;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  list-style-type: none;
+  overflow: hidden;
+  float: left;
+}
+.icono-boton {
+  fill: #ffffff;
+}
+
+div a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  min-height: 16px;
+  margin-left: 0.375rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.boton a:active {
+  background-color: #111236;
+}
+
+.boton:hover {
+  cursor: pointer;
+  background-color: #111236;
+}
+
+.bpk-logo_bpk-logo__MTNiY {
+  vertical-align: top;
+  fill: #0770e3;
+  width: 10.98958rem;
+  height: 1.875rem;
+}
